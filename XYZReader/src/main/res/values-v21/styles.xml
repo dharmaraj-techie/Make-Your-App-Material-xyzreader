@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@android:transition/move</item>
+        <item name="android:windowReturnTransition">@android:transition/fade</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowReenterTransition">@android:transition/slide_bottom</item>
+    </style>
+
+    <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
